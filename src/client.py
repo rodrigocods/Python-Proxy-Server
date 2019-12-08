@@ -14,7 +14,7 @@ addr_server = (ip_server, port_server)
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
 
 client_socket.connect(addr_proxy)
-print("Digite a mensagem para ser enviada para o server\n")
+print("Digite a mensagem seguindo a sintaxe 'mensagem/Ip qual deseja mandar'\n")
 msg = input()
 client_socket.send(bytes(msg,'utf-8'))
 client_socket.close()
