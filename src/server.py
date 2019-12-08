@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import socket 
 
 ip_proxy = '192.168.1.3' 

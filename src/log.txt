@@ -1,0 +1,4 @@
+IP e Porta do cliente|Server que iria ser acessado|data|hora|mensagem
+
+('192.168.1.3', 53541)|192.168.1.3|8/12/2019|16:10:36|oi
+('192.168.1.3', 53549)|192.168.1.3|8/12/2019|16:10:56|tudo bem

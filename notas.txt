@@ -8,3 +8,6 @@ Faça um programa de proxy de rede. O proxy funciona como uma ponte entre dois p
 1,0 - Bloqueio de IPs na conexão de entrada;
 0,5 - Alerta no console quando algum IP bloqueado tentar conectar;
 2,5 - O programa deve funcionar no laboratório;
+
+ORDEM DE EXECUÇÃO:
+Server->Proxy->Client

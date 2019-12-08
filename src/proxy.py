@@ -1,4 +1,11 @@
+# -*- coding: utf-8 -*-
 import socket 
+from datetime import datetime
+now = datetime.now()
+hora_atual = "%s:%s:%s"%(now.hour,now.minute,now.second)
+data_atual = "%s/%s/%s"%(now.day,now.month,now.year)
+
+log = open('log.txt', 'a')
 
 ip_proxy = '192.168.1.3' 
 port_proxy = 3131
@@ -26,6 +33,9 @@ print('finalizando conexao do cliente '+client[0])
 proxy_socket.close()
 
 addr_server = (ip_server, port_server)
+text = "%s|%s|%s|%s|%s\n"%(client,ip_server,data_atual,hora_atual,msg)
+log.write(text)
+log.close()
 aux = 0
 aux2 = 0
 while(aux<2):
