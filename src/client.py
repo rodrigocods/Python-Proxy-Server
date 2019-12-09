@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 import socket 
 
-ip_proxy = '192.168.1.3' 
-port_proxy = 3131
-ip_client = '192.168.1.3'
-port_client = 3132
-ip_server = '192.168.1.3'
-port_server = 3133
+ip_proxy = '10.1.2.184' 
+port_proxy = 65001
+ip_client = '10.1.2.184'
+port_client = 65002
+ip_server = '10.1.2.184'
+port_server = 65003
 
 addr_proxy = (ip_proxy, port_proxy) 
 addr_client = (ip_client, port_client)

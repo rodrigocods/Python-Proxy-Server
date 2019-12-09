@@ -7,12 +7,12 @@ data_atual = "%s/%s/%s"%(now.day,now.month,now.year)
 
 log = open('log.txt', 'a')
 
-ip_proxy = '192.168.1.3' 
-port_proxy = 3131
-ip_client = '192.168.1.3'
-port_client = 3132
-port_server = 3133
-ip_bloq = ["192.168.1.4","192.168.1.6","192.168.1.2"]
+ip_proxy = '10.1.2.184' 
+port_proxy = 65001
+ip_client = '10.1.2.184'
+port_client = 65002
+port_server = 65003
+ip_bloq = ["192.168.1.4","10.1.2.184","192.168.1.2"]
 
 addr_proxy = (ip_proxy, port_proxy) 
 addr_client = (ip_client, port_client)
