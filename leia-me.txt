@@ -1,7 +1,7 @@
+Instituto Federal de Educação, Ciência e Tecnologia do Tocantins (IFTO) - Campus Araguaína
 Disciplina: Redes de Computadores
+Turma: 2º ano "B" de informática
 Alunos: Rodrigo Oliveira, Gustavo Silva, Saulo Maxwell
-
-Faça um programa de proxy de rede. O proxy funciona como uma ponte entre dois pares, recebe a conexão em uma determinada porta e faz a ponte com o destino;
 
 5,0 - O aluno deve compreender e explicar o codigo fonte;
 1,0 - Log em arquivo de todas as conexões ip/porta/data/horário;
